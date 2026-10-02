@@ -1,0 +1,8 @@
+# Bundle patch for @local/dsh-net-proxy.
+#
+# The host plugin owns the node library, the sing-box core, the selective local
+# HTTP proxy, the `net_proxy` agent tool and the RPC endpoint; the client plugin
+# (declared in package.json's `dsh.client`) adds the 网络代理 Settings section.
+- insert:
+    - id: dsh-net-proxy
+      name: 'dsh-egress-router'

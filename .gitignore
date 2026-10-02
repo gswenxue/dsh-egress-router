@@ -1,0 +1,12 @@
+# The core is distributed as GitHub Release assets, never committed:
+# it is 50-65 MB per platform. lib/core-manifest.js pins the hashes.
+bin/sing-box
+bin/sing-box.exe
+bin/libcronet-*.dll
+
+# Local runtime state (the node library contains credentials) and build noise
+*.part
+*.tgz
+node_modules/
+npm-debug.log*
+.DS_Store
