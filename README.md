@@ -63,6 +63,19 @@ dsh plugin --profile web add https://github.com/gswenxue/dsh-egress-router/archi
 3. **选模式**：默认就是 `智能`，通常不用改；需要全部走节点时切 `全局`
 4. **用起来**：Agent 直接干活即可
 
+## 界面
+
+设置 → **网络代理**：内核状态与端口、三种模式、本地代理地址、导入区，一屏看全。
+
+![设置 → 网络代理](docs/settings-overview.png)
+
+<details>
+<summary>节点列表、智能模式路由名单、失效管理与批量测试</summary>
+
+![节点与路由名单](docs/nodes-and-routes.png)
+
+</details>
+
 ## 内核（sing-box）
 
 内核不放在仓库里（每个平台 50–65 MB），而是作为 [Release 附件](https://github.com/gswenxue/dsh-egress-router/releases) 提供：
