@@ -1,6 +1,6 @@
 {
   "name": "dsh-egress-router",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "On-demand egress routing for DeepSeek Harness: import vless/vmess/trojan/ss nodes and let only blocked traffic use them. 给 DeepSeek Harness 的按需网络出海插件。",
   "keywords": [
     "dsh-plugin",
